@@ -1,5 +1,5 @@
 package br.unitins.topicos2.ano2024.model.Produto;
-import br.unitins.topicos2.ano2024.model.DefaultEntity;
+import br.unitins.topicos2.ano2024.model.Prof.DefaultEntity;
 import jakarta.persistence.*;
 
 public class Cor extends DefaultEntity {

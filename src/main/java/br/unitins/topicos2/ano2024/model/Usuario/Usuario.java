@@ -1,6 +1,7 @@
 package br.unitins.topicos2.ano2024.model.Usuario;
 import java.util.List;
-import br.unitins.topicos2.ano2024.model.DefaultEntity;
+
+import br.unitins.topicos2.ano2024.model.Prof.DefaultEntity;
 import jakarta.persistence.*;
 
 @Entity

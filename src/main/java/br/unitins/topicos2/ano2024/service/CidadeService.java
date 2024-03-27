@@ -2,8 +2,8 @@ package br.unitins.topicos2.ano2024.service;
 
 import java.util.List;
 
-import br.unitins.topicos2.ano2024.dto.CidadeDTO;
-import br.unitins.topicos2.ano2024.dto.CidadeResponseDTO;
+import br.unitins.topicos2.ano2024.dto.Prof.CidadeDTO;
+import br.unitins.topicos2.ano2024.dto.Prof.CidadeResponseDTO;
 
 public interface CidadeService {
 

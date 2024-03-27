@@ -1,5 +1,5 @@
 package br.unitins.topicos2.ano2024.model.Produto;
-import br.unitins.topicos2.ano2024.model.DefaultEntity;
+import br.unitins.topicos2.ano2024.model.Prof.DefaultEntity;
 import jakarta.persistence.*;
 
 public class Marca extends DefaultEntity {
@@ -8,6 +8,8 @@ public class Marca extends DefaultEntity {
     private String nome;
 
     private String descricao;
+
+    private String nomeImagem;
 
     public String getNome() {
         return nome;
@@ -25,5 +27,14 @@ public class Marca extends DefaultEntity {
         this.descricao = descricao;
     }
 
+    public String getNomeImagem() {
+        return nomeImagem;
+    }
+
+    public void setNomeImagem(String nomeImagem) {
+        this.nomeImagem = nomeImagem;
+    }
+
+    
     
 }

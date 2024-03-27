@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import br.unitins.topicos2.ano2024.dto.EstadoDTO;
-import br.unitins.topicos2.ano2024.dto.EstadoResponseDTO;
-import br.unitins.topicos2.ano2024.model.Estado;
+import br.unitins.topicos2.ano2024.dto.Prof.EstadoDTO;
+import br.unitins.topicos2.ano2024.dto.Prof.EstadoResponseDTO;
+import br.unitins.topicos2.ano2024.model.Prof.Estado;
 import br.unitins.topicos2.ano2024.repository.EstadoRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

@@ -1,4 +1,4 @@
-package br.unitins.topicos2.ano2024.model;
+package br.unitins.topicos2.ano2024.model.Prof;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

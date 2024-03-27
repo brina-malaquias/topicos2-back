@@ -1,5 +1,5 @@
 package br.unitins.topicos2.ano2024.model.Produto;
-import br.unitins.topicos2.ano2024.model.DefaultEntity;
+import br.unitins.topicos2.ano2024.model.Prof.DefaultEntity;
 import jakarta.persistence.*;
 
 public class NicSalt extends DefaultEntity {
@@ -16,6 +16,8 @@ public class NicSalt extends DefaultEntity {
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinTable(name = "nicSalt-marca", joinColumns = @JoinColumn(name = "id_nicSalt"),inverseJoinColumns = @JoinColumn(name = "id_marca"))
     private Marca marca;
+
+    private String nomeImagem;
 
     public Long getId() {
         return id;
@@ -63,6 +65,14 @@ public class NicSalt extends DefaultEntity {
 
     public void setMarca(Marca marca) {
         this.marca = marca;
+    }
+
+    public String getNomeImagem() {
+        return nomeImagem;
+    }
+
+    public void setNomeImagem(String nomeImagem) {
+        this.nomeImagem = nomeImagem;
     }
 
 

@@ -1,8 +1,8 @@
 package br.unitins.topicos2.ano2024.resource;
 import org.jboss.logging.Logger;
 
-import br.unitins.topicos2.ano2024.dto.EstadoDTO;
-import br.unitins.topicos2.ano2024.dto.EstadoResponseDTO;
+import br.unitins.topicos2.ano2024.dto.Prof.EstadoDTO;
+import br.unitins.topicos2.ano2024.dto.Prof.EstadoResponseDTO;
 import br.unitins.topicos2.ano2024.service.EstadoService;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;

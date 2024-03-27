@@ -2,8 +2,8 @@ package br.unitins.topicos2.ano2024.service;
 
 import java.util.List;
 
-import br.unitins.topicos2.ano2024.dto.EstadoDTO;
-import br.unitins.topicos2.ano2024.dto.EstadoResponseDTO;
+import br.unitins.topicos2.ano2024.dto.Prof.EstadoDTO;
+import br.unitins.topicos2.ano2024.dto.Prof.EstadoResponseDTO;
 import jakarta.validation.Valid;
 
 public interface EstadoService {

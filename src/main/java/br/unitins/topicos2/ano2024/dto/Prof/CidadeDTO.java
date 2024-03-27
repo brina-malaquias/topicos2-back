@@ -1,4 +1,4 @@
-package br.unitins.topicos2.ano2024.dto;
+package br.unitins.topicos2.ano2024.dto.Prof;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

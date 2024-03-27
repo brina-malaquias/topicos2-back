@@ -1,6 +1,6 @@
-package br.unitins.topicos2.ano2024.dto;
+package br.unitins.topicos2.ano2024.dto.Prof;
 
-import br.unitins.topicos2.ano2024.model.Estado;
+import br.unitins.topicos2.ano2024.model.Prof.Estado;
 
 public record EstadoResponseDTO (
     Long id,
